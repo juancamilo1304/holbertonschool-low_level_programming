@@ -1,1 +1,0 @@
-this is about c programming language my headache

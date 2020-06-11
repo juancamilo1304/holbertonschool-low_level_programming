@@ -4,15 +4,15 @@
 /**
  *main - Entry point
  *alphabet
- *Return: Always 0 (Success)
+ *Return: Always 0
  */
 int main(void)
 {
-  char low;
-
-  for (low = 'a'; low <= 'z'; low++)
-    putchar(low);
-  printf("\n");
-
-  return (0);
+	char al;
+	for (al = 'a'; al <= 'z'; al++)
+	{
+		putchar(al);
+		putchar('\n');
+	}
+	return (0);
 }

@@ -8,21 +8,21 @@
  */
 int main(void)
 {
-  int d;
+	int d;
 
-  for (d = 0; d < 90; d++)
-    {
-      for ()
+	for (d = 0; d < 90; d++)
 	{
-	  putchar((d / 10) + '0');
-	  putchar((d % 10) + '0');
+		for ()
+		{
+			putchar((d / 10) + '0');
+			putchar((d % 10) + '0');
+		}
+		if (d != 89)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
-      if (d != 89)
-	{
-	  putchar(',');
-	  putchar(' ');
-	}
-    }
-  putchar('\n');
-  return (0);
- }
+	putchar('\n');
+	return (0);
+}

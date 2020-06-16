@@ -1,24 +1,18 @@
 #include "holberton.h"
 /**
  * print_alphabet_x10 - entry point
- * print 10 times alp
+ * print m 10 times
  */
 void print_alphabet_x10(void)
 {
-	char i;
-	char alp;
+	int n, m;
 
-	i = 48;
-	while (i < 58)
+	for (n = 0; n <= 9; n++)
 	{
-		alp = 97;
-		while (alp <= 122)
+		for (m = 'a'; m <= 'z'; m++)
 		{
-			_putchar(alp);
-			alp++;
+			_putchar(m);
 		}
-
 		_putchar('\n');
-		i++;
 	}
 }
